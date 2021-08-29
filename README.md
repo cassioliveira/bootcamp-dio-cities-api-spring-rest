@@ -19,15 +19,18 @@ Controle de versão da aplicação através da utilização do Git e armazenado 
 Implantação do sistema na nuvem através do Heroku
 
 ### Clonando o projeto
-git clone https://github.com/cassioliveira/bootcamp-dio-cities-api-spring-rest.git
+`git clone https://github.com/cassioliveira/bootcamp-dio-cities-api-spring-rest.git`
 
 ### Para executar o projeto
-mvn spring-boot:run
+`mvn spring-boot:run`
 
 Para consumir a API, basta acessar algum dos seguintes endpoints(após os comandos acima):
 http://localhost:8080/countries
 http://localhost:8080/states
 http://localhost:8080/cities
+
+### Projeto no Heroku
+`https://cities-api-bootcamp.herokuapp.com/`
 
 Pré-requisitos
 Java 8 ou superior (O projeto foi hospedado no heroku e o padrão dele é a versão 8, mas é possível utilizar versões mais recentes, através de configuração no application.properties)
