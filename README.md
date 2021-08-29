@@ -25,12 +25,14 @@ Implantação do sistema na nuvem através do Heroku
 `mvn spring-boot:run`
 
 Para consumir a API, basta acessar algum dos seguintes endpoints(após os comandos acima):
-http://localhost:8080/countries
-http://localhost:8080/states
-http://localhost:8080/cities
+- http://localhost:8080/countries
+- http://localhost:8080/states
+- http://localhost:8080/cities
 
 ### Projeto no Heroku
-`https://cities-api-bootcamp.herokuapp.com/`
+- `https://cities-api-bootcamp.herokuapp.com/countries`
+- `https://cities-api-bootcamp.herokuapp.com/states`
+- `https://cities-api-bootcamp.herokuapp.com/cities`
 
 Pré-requisitos
 Java 8 ou superior (O projeto foi hospedado no heroku e o padrão dele é a versão 8, mas é possível utilizar versões mais recentes, através de configuração no application.properties)
